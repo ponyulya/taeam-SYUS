@@ -1,0 +1,96 @@
+    1  git config --list --global
+    2  history
+    3* 
+    4  git config --list --global
+    5  git config --global alias.ll 'log --all --decorate --oneline --graph'
+    6  git ll
+    7  git config --global alias.ll 'log --oneline --decorate --graph -all'
+    8  git ll
+    9  git config --global alias.ll 'log -all --decorate --oneline --graph'
+   10  git ll
+   11  git config --global alias.ll log --oneline --decorate --graph -all
+   12  git ll
+   13  git config --list --global
+   14  ls
+   15  cd gei
+   16  git init
+   17  cd .git
+   18  ls
+   19  ls-a
+   20  ls -a
+   21  git ll
+   22  ll
+   23  cat config
+   24  cd gei
+   25  cd
+   26  git init
+   27  ls -a
+   28  git config --list --global
+   29  git ll
+   30  git status
+   31  nano .gitignore
+   32  cat .gitignore
+   33  cd gei
+   34  cd
+   35  cd /
+   36  cd c
+   37  cd:/users
+   38  cd c:/users
+   39  cd Эльвира
+   40  cd gei
+   41  git ll
+   42  git status
+   43  cat .gitignore
+   44  git status
+   45  nano python
+   46  git status
+   47  nano ex.cpp
+   48  git status
+   49  git add .
+   50  git status
+   51  git commit -m "my first commit."
+   52  git status
+   53  git ll
+   54  git config --global alias.ll log --oneline --decorate --graph -all
+   55  git ll
+   56  git config --global alias.ll 'log --all --decorate --oneline --graph'
+   57  git ll
+   58  git log
+   59  git add ex.cpp
+   60  git status
+   61  git reset HEAD ex.cpp
+   62  git status
+   63  git checkout --
+   64  git checkout --ex.cpp
+   65  git ll
+   66  github.com/ponyulya/team-.git
+   67  gh repo clone ponyulya/team-
+   68  git clone github.com/ponyulya/team-.git
+   69  git clone https://github.com/ponyulya/team-.git
+   70  cd team-
+   71  nano gei.cpp
+   72  gei.cpp
+   73  start gei.cpp
+   74  cat gei.cpp
+   75  nano gei.cpp
+   76  git status
+   77  git add gei.cpp
+   78  git status
+   79  git commit
+   80  git commit -m "file gei.cpp"
+   81  git pull
+   82  git status
+   83  git push
+   84  git pull
+   85  nano gei.cpp
+   86  git status
+   87  git add gei.cpp
+   88  git status
+   89  git commit -m "comment"
+   90  git push
+   91  git ll
+   92  git reset --hard HEAD^1
+   93  git ll
+   94  git log
+   95  git pull
+   96  history > history_gei.txt
