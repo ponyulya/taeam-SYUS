@@ -7,4 +7,4 @@ void print_gei(){
 cout<<"Gogoleva Era Innokentevna"
 }
 
-#file
+#file.
