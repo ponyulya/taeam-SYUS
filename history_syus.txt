@@ -1,0 +1,227 @@
+    1  git config --global user.name "Yuliya Solovieva"
+    2  git config --global user.email mshairin@mail.ru
+    3  git config --global core.editor nano
+    4  git config <key>
+    5  git config --list
+    6  git config --global alias.ll log --oneline --decorate --graph -all
+    7  git config --global alias.ll log--oneline--decorate--graph-all
+    8  git ll
+    9  git log--oneline--decorate--graph-all
+   10  git log --oneline --decorate --graph --all
+   11  git log --all --decorate --oneline --graph
+   12  git config --global alias.ll log --oneline --decorate --graph --all
+   13  git ll
+   14  git config --global alias.ll git log --oneline --decorate --graph --all
+   15  git ll
+   16  git config --global alias.ll 'log --all --decorate --oneline --graph'
+   17  git ll
+   18  mkdir SYUS
+   19  cd SYUS
+   20  git init
+   21  ls -a
+   22  git config --list --global
+   23  git ll
+   24  git status
+   25  nano .gitignore
+   26  cat .gitignore
+   27  git status
+   28  nano pyton
+   29  nano pyton
+   30  git status
+   31  rm pyton
+   32  git status
+   33  nano hello.py
+   34  git status
+   35  cat hello.py
+   36  nano ex.cpp
+   37  git status
+   38  git add .
+   39  git add .
+   40  git status
+   41  git commit -m "my first commit. add hello."
+   42  git status
+   43  git ll
+   44  nano ex.cpp
+   45  git add .
+   46  git status
+   47  git log
+   48  git add ex.cpp
+   49  git add ex.cpp
+   50  git status
+   51  git reseat HEAD
+   52  git reset HEAD
+   53  git status
+   54  git checkout --
+   55  cat ex.cpp
+   56  git reset HEAD ex.cpp
+   57  git status
+   58  git checkout -- ex.cpp
+   59  git ll
+   60  git log
+   61  cat ex.cpp
+   62  rm ex.cpp
+   63  cat ex.cpp
+   64  nano ex.cpp
+   65  git status
+   66  cat ex.cpp
+   67  git reset HEAD ex.cpp
+   68  git status
+   69  git reset HEAD hello.py
+   70  git status
+   71  rm hello.py
+   72  rm ex.cpp
+   73  git status
+   74  git status
+   75  nano hello1.py
+   76  git status
+   77  git restore --stages hello.py
+   78  git status
+   79  git restore hello.py
+   80  git status
+   81  nano ex.cpp
+   82  git status
+   83  cat ex.cpp
+   84  git restore ex.cpp
+   85  git restore --staged ex.cpp
+   86  git status
+   87  git log
+   88  rm ex.cpp
+   89  git status
+   90  nano example.cpp
+   91  git status
+   92  git add example.cpp
+   93  git status
+   94  git add hello1.py
+   95  git status
+   96  cat hello
+   97  cat example.cpp
+   98  nano ex.cpp
+   99  git status
+  100  git restore --staged hello.py
+  101  git status
+  102  git restore hello.py
+  103  git status
+  104  git add.
+  105  git add .
+  106  git status
+  107  git ll
+  108  git add ex.cpp
+  109  git add -f ex.cpp
+  110  git status
+  111  git commit -m "my first commit"
+  112  git ll
+  113  git status
+  114  nano ex2.cpp
+  115  git status
+  116  git add ex2.cpp
+  117  git add -f ex2.cpp
+  118  git status
+  119  git reset HEAD ex2.cpp
+  120  git status
+  121  git restore ex2.cpp
+  122  git restore hello.py
+  123  cat hello.py
+  124  nano hello.py
+  125  cat hello.py
+  126  git restore hello.py
+  127  cat hello.py
+  128  git remote add origin https://github.com/ponyulya/taeam-SYUS
+  129  git branch -M main
+  130  git push -u origin main
+  131  git push -u origin main
+  132  git remote add origin https://github.com/ponyulya/taeam-SYUS.git
+  133  git remote add origin https://github.com/ponyulya/taeam-SYUS
+  134  git push -u origin main
+  135  git pull
+  136  git ll
+  137  git config --global
+  138  git list
+  139  git config --list --global
+  140  history
+  141  git ll
+  142  git config ll
+  143  git config --global alias.ll 'log --all --decorate --oneline --graph'
+  144  git ll
+  145  git config -global alias.ll 'log --all --decorate --oneline --graph'
+  146  git config -global alias.ll log --all --decorate --oneline --graph
+  147  git config --global alias.ll log --all --decorate --oneline --graph
+  148  git ll
+  149  git config --list --global
+  150  git ll
+  151  cd /
+  152  git ll
+  153  cd c:/users/1/SYUS
+  154  git ll
+  155  history
+  156  cat config
+  157  histoty > history.txt
+  158  histoty >> history.txt
+  159  history >> history.txt
+  160  git ll
+  161  git status
+  162  git ll
+  163  git clone https://github.com/ponyulya/team-.git
+  164  cd team-
+  165  nano main.cpp
+  166  git status
+  167  git config --list --global
+  168  cat main.cpp
+  169  nano main.cpp
+  170  git status
+  171  start main.cpp
+  172  cat main.cpp
+  173  nano main.cpp
+  174  cat main.cpp
+  175  git status
+  176  git add
+  177  git status
+  178  git add.
+  179  git status
+  180  git add main.cpp
+  181  git status
+  182  git commit
+  183  git commit
+  184  git status
+  185  git ll
+  186  git commit
+  187  git status
+  188  git ll
+  189  git status
+  190  git commit
+  191  git status
+  192  git pull
+  193  git push
+  194  git status
+  195  git commit
+  196  git status
+  197  git add .
+  198  git commit -m "file main.cpp"
+  199  git status
+  200  git pull
+  201  git push
+  202  git pull
+  203  nano main.cpp
+  204  git status
+  205  git add main.cpp
+  206  git status
+  207  git commit -m "я сделала комментарий"
+  208  git status
+  209  git push
+  210  git push
+  211  git push
+  212  git pull
+  213  git push
+  214  git ll
+  215  git reset --hard HEAD^1
+  216  git ll
+  217  git log
+  218  history > history_syus.txt
+  219  git add history_syus.txt
+  220  git status
+  221  cd users
+  222  cd c:
+  223  cd users
+  224  cd 1
+  225  cd syus
+  226  cd team-
+  227  history > history_syus.txt
